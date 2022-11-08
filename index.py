@@ -36,7 +36,7 @@ def search():
         result = "請輸入您要查詢的老師：" + aond
 
         db = firestore.client()
-        collection_ref = db.collection("111")
+        collection_ref = db.collection("1111")
         docs = collection_ref.get()
         result = ""
         for doc in docs:
